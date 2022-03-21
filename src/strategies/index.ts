@@ -42,7 +42,7 @@ import * as moloch from './moloch';
 import * as uniswap from './uniswap';
 import * as faralandStaking from './faraland-staking';
 import * as flashstake from './flashstake';
-import * as pancake from './pancake';
+import * as cakePools from './cake-pools';
 import * as synthetix from './synthetix';
 import * as aelinCouncil from './aelin-council';
 import * as synthetixQuadratic from './synthetix-quadratic';
@@ -346,7 +346,7 @@ const strategies = {
   uniswap,
   'faraland-staking': faralandStaking,
   flashstake,
-  pancake,
+  'cake-pools': cakePools,
   synthetix,
   'aelin-council': aelinCouncil,
   'synthetix-quadratic': synthetixQuadratic,

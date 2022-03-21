@@ -1,15 +1,13 @@
-# Contract call strategy
+# PancakeSwap Pools strategy
 
-Allows the tokens staked in chef conttracts to be used to calculate voter scores.
+Calculate voter scores by PancakeSwap Syrups Pools (SmartChef only)
 
 ## Examples
-
-Can be used instead of the erc20-balance-of strategy, the space config will look like this:
 
 ```JSON
 {
   "strategies": [
-    ["pancake", {
+    ["cake-pools", {
       "address": "0x009cF7bC57584b7998236eff51b98A168DceA9B0",
       "chefAddresses": [
           {
